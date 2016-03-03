@@ -3,6 +3,13 @@ header {
   height: 40px;
   background-color: blue; }
 
+.logo {
+  float: left; }
+
+.na-link {
+  float: right;
+  padding: 0.5em 1.4em 0 1em; }
+
 .SimplePrice {
   width: 100%;
   height: 200px;
@@ -11,14 +18,17 @@ header {
 
 .plan-types {
   width: 100%;
-  border: 1px solid #DEDEDE;
-  background-color: #E2E2E2; }
+  border: 1px solid #DDDDDD;
+  margin: 2em auto;
+  box-sizing: border-box;
+  background-color: #orange; }
 
 .plan-header {
   width: 100%;
   height: 20em;
   text-align: center; }
   .plan-header h1, .plan-header h2, .plan-header h3 {
+    font-family: 'Krona One', sans-serif;
     color: white; }
 
 .personal-plan {
@@ -32,7 +42,7 @@ header {
 
 h1 {
   font-size: 18px;
-  margin: 3em auto 0 auto; }
+  margin-top: 0px; }
 
 h2 {
   font-size: 100px;
@@ -47,6 +57,7 @@ h3 {
   width: 100%;
   height: 2em;
   text-align: center;
+  color: #4E5255;
   padding-top: 1em; }
   .feature:hover {
     background-color: #dfdfdf;
