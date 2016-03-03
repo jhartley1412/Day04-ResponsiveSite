@@ -19,7 +19,6 @@ header{
 	width: 100%; //will change in @media
 	height: 700px; //placeholder
 	background-color: green;
-	margin: 0 auto 3em auto;
 
 	h1, h2{
 		color: white;
@@ -51,6 +50,7 @@ h3{
 
 .feature{
 	background-color: #F8F8F8;
+	border: 1px solid #DEDEDE;
 	width: 100%;
 	height: 2em;
 	text-align: center;
@@ -60,6 +60,18 @@ h3{
 		background-color: darken(#F8F8F8, 10%);
 		cursor: pointer;
 	}
+}
+
+.choose-button{
+	width: 130px; //change to em?
+	height: 30px;
+	//border-radius: 40% 40% 40% 40%;
+	margin: 1em auto;
+	background-color: grey;
+
+	text-align: center;
+	padding-top: 1em;
+
 }
 
 
