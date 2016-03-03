@@ -7,18 +7,22 @@ header{
 
 .logo{
 	float: left;
+	padding: 0.5em 0 0 1.2em;
 }
 
 .na-link{
 	float: right;
-	padding: 0.5em 1.4em 0 1em;
+	padding: 0.5em 1em 0 0.5em;
 }
 
 .SimplePrice{
 	width: 100%; //will change in @media
-	height: 200px; //placeholder
-	background-color: grey;
+	height: 20em;
 	margin: 0 auto 3em auto;
+
+	background-image:
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .plan-types{
@@ -36,7 +40,6 @@ header{
 	text-align: center;
 
 	h1, h2, h3{
-		font-family: 'Krona One', sans-serif;
 		color: white;
 	}
 }
@@ -55,8 +58,10 @@ header{
 
 
 h1{
+	font-family: 'Michroma', sans-serif;
 	font-size: 18px;
-	margin-top: 0px;
+	margin-top: 0;
+	padding-top: 2em;
 }
 
 h2{
@@ -66,7 +71,9 @@ h2{
 
 
 h3{
-	opacity: 80%;
+	opacity: 50%;
+	font-size: 20px;
+	letter-spacing: 0.2em;
 }
 
 .feature{
