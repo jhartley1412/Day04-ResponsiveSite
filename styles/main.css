@@ -1,6 +1,3 @@
-body {
-  background-color: red; }
-
 header {
   width: 100%;
   height: 40px;
@@ -14,16 +11,24 @@ header {
 
 .plan-types {
   width: 100%;
-  height: 700px;
-  background-color: green; }
-  .plan-types h1, .plan-types h2 {
+  border: 1px solid #DEDEDE;
+  background-color: #E2E2E2; }
+
+.plan-header {
+  width: 100%;
+  height: 20em;
+  text-align: center; }
+  .plan-header h1, .plan-header h2, .plan-header h3 {
     color: white; }
 
 .personal-plan {
-  width: 100%;
-  height: 20em;
-  background-color: #699157;
-  text-align: center; }
+  background-color: #699157; }
+
+.small-bus-plan {
+  background-color: #394A82; }
+
+.enterprise-plan {
+  background-color: black; }
 
 h1 {
   font-size: 18px;
@@ -34,7 +39,7 @@ h2 {
   margin: 0 auto; }
 
 h3 {
-  color: #B0C7A8; }
+  opacity: 80%; }
 
 .feature {
   background-color: #F8F8F8;
@@ -57,7 +62,20 @@ h3 {
 
 .more-info {
   width: 100%;
-  height: 500px;
+  padding: 4em auto;
   background-color: pink; }
+
+.info-block {
+  width: 100%;
+  height: 200px;
+  padding: 2em;
+  box-sizing: border-box;
+  margin: 1em auto;
+  background-color: white; }
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: black; }
 
 /*# sourceMappingURL=main.css.map */
