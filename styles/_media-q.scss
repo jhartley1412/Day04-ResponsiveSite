@@ -6,11 +6,10 @@
 @media (min-width: 0px){
 	
 	.SimplePrice{
-		height: 18em;
+		padding: 2em;
 
 		h2{
 			font-size: 40px;
-			padding-top: 2em;
 		}
 	}
 
@@ -42,11 +41,10 @@
 @media (min-width: 480px){
 	
 	.SimplePrice{
-		height: 30em;
+		padding: 5em;
 
 		h2{
-			font-size: 55px;
-			padding-top: 3em;
+			font-size: 40px;
 		}
 	}
 
@@ -70,11 +68,10 @@
 @media (min-width: 768px){
 
 	.SimplePrice{
-		height: 30em;
+		padding: 8em;
 
 		h2{
 			font-size: 55px;
-			padding-top: 3em;
 		}
 
 	}
@@ -82,16 +79,11 @@
 	.plans{
 		width: 90%;
 		max-width: 60em;
-		height: 40em;
 		margin: 0 auto;
 
 		.plan-types{
 			width: 30%;
 			max-width: 18em;
-
-			.plan-header{
-				height: 16em;
-			}
 		}
 	}
 
@@ -133,13 +125,11 @@
 	.more-info{
 		width: 90%;
 		max-width: 60em;
-		height: 40em;
 		margin: 0 auto;
 	}
 
 	.info-block{
 		width: 45%;
-		height: 17em;
 		padding: 1em 0;
 		float: left;
 
@@ -163,15 +153,11 @@
 
 	.plans{
 		width: 60em;
-		height: 40em;
 		margin: 0 auto;
 
 		.plan-types{
 			width: 18em;
 
-			.plan-header{
-				height: 16em;
-			}
 		}
 	}
 
@@ -204,14 +190,12 @@
 
 	.more-info{
 		width: 60em;
-		height: 40em;
 		margin: 0 auto;
 		
 	}
 
 	.info-block{
 		width: 45%;
-		height: 17em;
 		padding: 1em 0 0 0;
 		float: left;
 
