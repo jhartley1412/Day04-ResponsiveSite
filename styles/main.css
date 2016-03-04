@@ -33,26 +33,33 @@
       padding-top: 3em; }
 
   .plans {
-    width: 50em;
+    width: 90%;
+    max-width: 60em;
     height: 40em;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: pink; }
     .plans .plan-types {
-      width: 16em;
-      float: left; }
+      width: 30%;
+      max-width: 19em; }
       .plans .plan-types .plan-header {
         height: 16em; }
 
+  .personal-plan {
+    float: left; }
+
   .small-bus-plan {
-    margin: 0 0.2em; }
+    margin-left: 5%;
+    float: left; }
     .small-bus-plan h1 {
       font-size: 15px;
       padding-top: 1.2em; }
 
-  .personal-plan, .enterprise-plan {
-    margin: 0 auto; }
-    .personal-plan h1, .enterprise-plan h1 {
-      font-size: 16px;
-      padding-top: 1em; }
+  .enterprise-plan {
+    float: right; }
+
+  .personal-plan h1, .enterprise-plan h1 {
+    font-size: 16px;
+    padding-top: 1em; }
 
   h2 {
     font-size: 80px; }
@@ -75,28 +82,6 @@
 
   footer {
     clear: both; } }
-@media (min-width: 883px) {
-  .plans {
-    width: 55em;
-    height: 40em;
-    margin: 0 auto; }
-    .plans .plan-types {
-      width: 16em;
-      float: left; }
-      .plans .plan-types .plan-header {
-        height: 16em; }
-
-  .small-bus-plan {
-    margin: 0 3.2em; }
-    .small-bus-plan h1 {
-      font-size: 15px;
-      padding-top: 1.2em; }
-
-  .personal-plan, .enterprise-plan {
-    margin: 0 auto; }
-    .personal-plan h1, .enterprise-plan h1 {
-      font-size: 16px;
-      padding-top: 1em; } }
 @media (min-width: 1340px) {
   .plans {
     width: 60em;
@@ -107,7 +92,7 @@
       width: 19em;
       float: left; }
       .plans .plan-types .plan-header {
-        height: 13em; }
+        height: 16em; }
 
   .small-bus-plan {
     margin: 0 1.3em; }

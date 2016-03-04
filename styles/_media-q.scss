@@ -78,13 +78,15 @@
 	}
 	
 	.plans{
-		width: 50em;
+		width: 90%;
+		max-width: 60em;
 		height: 40em;
 		margin: 0 auto;
+		background-color: pink;
 
 		.plan-types{
-			width: 16em;
-			float: left;
+			width: 30%;
+			max-width: 19em;
 
 			.plan-header{
 				height: 16em;
@@ -92,18 +94,27 @@
 		}
 	}
 
+
+	.personal-plan{
+		float: left;
+	}
+
 	.small-bus-plan{
-		margin: 0 0.2em;
+		margin-left: 5%;
+		float: left;
 
 		h1{
 			font-size: 15px;
 			padding-top: 1.2em;
 		}
 	}
+	
+	.enterprise-plan{
+		float: right;
+	}
 
 	.personal-plan, .enterprise-plan{
-		margin: 0 auto;
-
+		
 		h1{
 			font-size: 16px;
 			padding-top: 1em;
@@ -141,52 +152,6 @@
 }
 
 
-// transitioning screen
-
-@media (min-width: 883px){
-	.plans{
-		width: 55em;
-		height: 40em;
-		margin: 0 auto;
-
-		.plan-types{
-			width: 16em;
-			float: left;
-
-			.plan-header{
-				height: 16em;
-			}
-		}
-	}
-
-	.small-bus-plan{
-		margin: 0 3.2em;
-
-		h1{
-			font-size: 15px;
-			padding-top: 1.2em;
-		}
-	}
-
-	.personal-plan, .enterprise-plan{
-		margin: 0 auto;
-
-		h1{
-			font-size: 16px;
-			padding-top: 1em;
-		}
-	}
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -205,7 +170,7 @@
 			float: left;
 
 			.plan-header{
-				height: 13em;
+				height: 16em;
 			}
 		}
 	}
