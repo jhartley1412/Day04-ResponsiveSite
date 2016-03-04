@@ -96,7 +96,8 @@ h3 {
 .more-info {
   width: 100%;
   padding: 2em auto;
-  margin-top: 4em; }
+  margin-top: 4em;
+  margin-bottom: 2em; }
 
 .info-block {
   width: 100%;
@@ -114,7 +115,13 @@ h4 {
 
 footer {
   width: 100%;
-  height: 30px;
-  background-color: black; }
+  background-color: black;
+  padding: 2em;
+  box-sizing: border-box;
+  color: #878787;
+  line-height: 1.7;
+  text-align: center; }
+  footer a {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -132,6 +132,7 @@ h3{
 	width: 100%; //will change in @media
 	padding: 2em auto;
 	margin-top: 4em;
+	margin-bottom: 2em;
 }
 
 .info-block{
@@ -157,8 +158,16 @@ h4{
 
 footer{
 	width: 100%;
-	height: 30px; //placeholder
 	background-color: black;
+	padding: 2em;
+	box-sizing: border-box;
+	color: #878787;
+	line-height: 1.7;
+	text-align: center;
+
+	a{
+		color: white;
+	}
 }
 
 
