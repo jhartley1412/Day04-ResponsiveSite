@@ -1,6 +1,10 @@
 
 @import 'media-q';
 
+body{
+	margin: 0 1em;
+}
+
 header{
 	width: 100%;
 	height: 40px;
@@ -139,7 +143,7 @@ h3{
 	margin: 1em auto;
 
 	text-align: center;
-	padding-top: 0.5em;
+	padding: 0.5em 0;
 
 	&:hover{
 		background-color: darken(#F8F8F8, 10%);
