@@ -13,7 +13,44 @@
 		}
 	}
 
+
+
+	.plans{
+		width: 100%;
+
+		.plan-types{
+			width: 100%;
+			
+		}
+	}
+
+	.info-block{
+		padding: 2em;
+		box-sizing: border-box;
+		margin: 1em auto;
+	}
 }
+
+
+
+
+
+//small desktop / ipad?
+
+@media (min-width: 480px){
+	
+	.plans{
+		width: 100%;
+
+		.plan-types{
+			width: 100%;
+		}
+
+	}
+
+}
+
+
 
 
 
@@ -28,11 +65,66 @@
 		}
 
 	}
+	
+	.plans{
+		width: 48em;
+		height: 40em;
+		margin: 0 auto;
 
-	.plan-types{
-		width: 50em;
+		.plan-types{
+			width: 14em;
+			float: left;
 
+			.plan-header{
+				height: 14em;
+			}
+		}
 	}
 
+	.small-bus-plan{
+		margin: 0 2em;
 
+		h1{
+			font-size: 15px;
+			padding-top: 1.2em;
+		}
+	}
+
+	.personal-plan, .enterprise-plan{
+		margin: 0 auto;
+
+		h1{
+			font-size: 16px;
+			padding-top: 1em;
+		}
+	}
+
+	h2{
+		font-size: 80px;
+	}
+
+	h3{
+		font-size: 19px;
+	}
+
+	.more-info{
+		width: 48em;
+		margin: 0 auto;
+		background-color: red;
+	}
+
+	.info-block{
+		width: 20em;
+		padding: 1em 3em 1em 0;
+		float: left;
+		background-color: blue;
+
+		&:nth-child(even){
+			margin-right: 2em;
+		}
+	}
+
+	footer{
+		clear: both;
+	}
 }
