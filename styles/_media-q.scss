@@ -82,11 +82,10 @@
 		max-width: 60em;
 		height: 40em;
 		margin: 0 auto;
-		background-color: pink;
 
 		.plan-types{
 			width: 30%;
-			max-width: 19em;
+			max-width: 18em;
 
 			.plan-header{
 				height: 16em;
@@ -130,7 +129,8 @@
 	}
 
 	.more-info{
-		width: 48em;
+		width: 90%;
+		max-width: 60em;
 		height: 40em;
 		margin: 0 auto;
 	}
@@ -163,25 +163,31 @@
 		width: 60em;
 		height: 40em;
 		margin: 0 auto;
-		background-color: pink;
 
 		.plan-types{
-			width: 19em;
-			float: left;
+			width: 18em;
 
 			.plan-header{
 				height: 16em;
 			}
 		}
 	}
+
+	.personal-plan{
+		float: left;
+	}
 	
 	.small-bus-plan{
-		margin: 0 1.3em;
+		margin-left: 5%;
 
 		h1{
 			font-size: 15px;
 			padding-top: 1.2em;
 		}
+	}
+
+	.enterprise-plan{
+		float: right;
 	}
 
 	.personal-plan, .enterprise-plan{
@@ -204,7 +210,7 @@
 	.info-block{
 		width: 45%;
 		height: 17em;
-		padding: 1em 0;
+		padding: 1em 0 0 0;
 		float: left;
 
 		&:nth-child(even){
