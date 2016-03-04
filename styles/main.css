@@ -6,9 +6,11 @@
 
   .plans {
     width: 100%; }
+    .plans .plan-header {
+      padding: 2em 0; }
     .plans .plan-types {
       width: 100%;
-      margin-bottom: 2em; }
+      margin-bottom: 3em; }
 
   .info-block {
     padding: 2em;
@@ -35,6 +37,8 @@
     width: 90%;
     max-width: 60em;
     margin: 0 auto; }
+    .plans .plan-header {
+      padding: 2em 0; }
     .plans .plan-types {
       width: 30%;
       max-width: 18em; }
@@ -183,8 +187,7 @@ h1 {
   font-family: 'Michroma', sans-serif;
   font-size: 20px;
   letter-spacing: 0.2em;
-  margin-top: 0;
-  padding-top: 2em; }
+  margin-top: 0; }
 
 h2 {
   font-size: 100px;
@@ -192,7 +195,7 @@ h2 {
 
 h3 {
   font-size: 23px;
-  margin: 0.5em auto;
+  margin: 0 auto;
   letter-spacing: 0.1em; }
 
 .feature {
@@ -201,7 +204,7 @@ h3 {
   width: 100%;
   text-align: center;
   color: #4E5255;
-  padding-top: 1em; }
+  padding: 1em 0; }
 
 .choose-button {
   width: 6em;
