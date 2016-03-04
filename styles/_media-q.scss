@@ -1,0 +1,38 @@
+
+// media content
+
+
+//mobile
+@media (min-width: 0px){
+	
+	.SimplePrice{
+		height: 18em;
+
+		h2{
+			padding-top: 2em;
+		}
+	}
+
+}
+
+
+
+//desktop
+@media (min-width: 768px){
+
+	.SimplePrice{
+		height: 30em;
+
+		h2{
+			padding-top: 4em;
+		}
+
+	}
+
+	.plan-types{
+		width: 50em;
+
+	}
+
+
+}
