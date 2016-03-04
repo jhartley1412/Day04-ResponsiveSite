@@ -134,7 +134,9 @@ header {
     color: #777777;
     text-decoration: none; }
   header a.Price-button {
-    color: black; }
+    color: #64bbf6; }
+  header a:hover {
+    color: #94D0F9; }
 
 nav {
   width: 400px; }
@@ -145,6 +147,8 @@ nav {
   color: #94D0F9;
   float: left;
   padding: 0.4em 0 0 1.2em; }
+  .logo:hover {
+    color: #64bbf6; }
 
 .na-link {
   float: right;
