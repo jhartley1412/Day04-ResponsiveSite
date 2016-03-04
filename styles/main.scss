@@ -27,6 +27,8 @@ header{
 
 	h2{
 		font-size: 40px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
 		color: white;
 		text-align: center;
 		text-shadow: 0.2em 0.2em 0.5em black;
@@ -51,6 +53,10 @@ header{
 	h1, h2, h3{
 		color: white;
 	}
+
+	h2{
+		letter-spacing: 0.1em;
+	}
 }
 
 .personal-plan{
@@ -59,16 +65,25 @@ header{
 
 .small-bus-plan{
 	background-color: #394A82;
+
+	h2{
+		letter-spacing: 0em;
+	}
 }
 
 .enterprise-plan{
 	background-color: black;
+	
+	h2{
+		letter-spacing: 0em;
+	}
 }
 
 
 h1{
 	font-family: 'Michroma', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
+	letter-spacing: 0.2em;
 	margin-top: 0;
 	padding-top: 2em;
 }
@@ -80,9 +95,9 @@ h2{
 
 
 h3{
-	opacity: 50%;
-	font-size: 20px;
-	letter-spacing: 0.2em;
+	font-size: 23px;
+	margin: 0.5em auto;
+	letter-spacing: 0.1em;
 }
 
 .feature{
