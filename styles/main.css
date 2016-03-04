@@ -54,16 +54,16 @@
 
   .more-info {
     width: 48em;
-    margin: 0 auto;
-    background-color: red; }
+    height: 40em;
+    margin: 0 auto; }
 
   .info-block {
-    width: 20em;
+    width: 22em;
+    height: 17em;
     padding: 1em 3em 1em 0;
-    float: left;
-    background-color: blue; }
+    float: left; }
     .info-block:nth-child(even) {
-      margin-right: 2em; }
+      float: right; }
 
   footer {
     clear: both; } }
