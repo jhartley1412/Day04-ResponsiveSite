@@ -33,17 +33,17 @@
       padding-top: 3em; }
 
   .plans {
-    width: 48em;
+    width: 50em;
     height: 40em;
     margin: 0 auto; }
     .plans .plan-types {
-      width: 13em;
+      width: 16em;
       float: left; }
       .plans .plan-types .plan-header {
-        height: 13em; }
+        height: 16em; }
 
   .small-bus-plan {
-    margin: 0 2em; }
+    margin: 0 0.2em; }
     .small-bus-plan h1 {
       font-size: 15px;
       padding-top: 1.2em; }
@@ -66,29 +66,28 @@
     margin: 0 auto; }
 
   .info-block {
-    width: 22em;
+    width: 45%;
     height: 17em;
-    padding: 1em 3em 1em 0;
+    padding: 1em 0;
     float: left; }
     .info-block:nth-child(even) {
       float: right; }
 
   footer {
     clear: both; } }
-@media (min-width: 1340px) {
+@media (min-width: 883px) {
   .plans {
-    width: 60em;
+    width: 55em;
     height: 40em;
-    margin: 0 auto;
-    background-color: pink; }
+    margin: 0 auto; }
     .plans .plan-types {
-      width: 17em;
+      width: 16em;
       float: left; }
       .plans .plan-types .plan-header {
-        height: 13em; }
+        height: 16em; }
 
   .small-bus-plan {
-    margin: 0 4.3em; }
+    margin: 0 3.2em; }
     .small-bus-plan h1 {
       font-size: 15px;
       padding-top: 1.2em; }
@@ -98,6 +97,45 @@
     .personal-plan h1, .enterprise-plan h1 {
       font-size: 16px;
       padding-top: 1em; } }
+@media (min-width: 1340px) {
+  .plans {
+    width: 60em;
+    height: 40em;
+    margin: 0 auto;
+    background-color: pink; }
+    .plans .plan-types {
+      width: 19em;
+      float: left; }
+      .plans .plan-types .plan-header {
+        height: 13em; }
+
+  .small-bus-plan {
+    margin: 0 1.3em; }
+    .small-bus-plan h1 {
+      font-size: 15px;
+      padding-top: 1.2em; }
+
+  .personal-plan, .enterprise-plan {
+    margin: 0 auto; }
+    .personal-plan h1, .enterprise-plan h1 {
+      font-size: 16px;
+      padding-top: 1em; }
+
+  .more-info {
+    width: 60em;
+    height: 40em;
+    margin: 0 auto; }
+
+  .info-block {
+    width: 45%;
+    height: 17em;
+    padding: 1em 0;
+    float: left; }
+    .info-block:nth-child(even) {
+      float: right; }
+
+  footer {
+    clear: both; } }
 header {
   width: 100%;
   height: 40px; }

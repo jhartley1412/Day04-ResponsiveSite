@@ -64,7 +64,7 @@
 
 
 
-//desktop
+//half-screen
 @media (min-width: 768px){
 
 	.SimplePrice{
@@ -78,22 +78,22 @@
 	}
 	
 	.plans{
-		width: 48em;
+		width: 50em;
 		height: 40em;
 		margin: 0 auto;
 
 		.plan-types{
-			width: 13em;
+			width: 16em;
 			float: left;
 
 			.plan-header{
-				height: 13em;
+				height: 16em;
 			}
 		}
 	}
 
 	.small-bus-plan{
-		margin: 0 2em;
+		margin: 0 0.2em;
 
 		h1{
 			font-size: 15px;
@@ -125,9 +125,9 @@
 	}
 
 	.info-block{
-		width: 22em;
+		width: 45%;
 		height: 17em;
-		padding: 1em 3em 1em 0;
+		padding: 1em 0;
 		float: left;
 
 		&:nth-child(even){
@@ -141,7 +141,56 @@
 }
 
 
-//big screen
+// transitioning screen
+
+@media (min-width: 883px){
+	.plans{
+		width: 55em;
+		height: 40em;
+		margin: 0 auto;
+
+		.plan-types{
+			width: 16em;
+			float: left;
+
+			.plan-header{
+				height: 16em;
+			}
+		}
+	}
+
+	.small-bus-plan{
+		margin: 0 3.2em;
+
+		h1{
+			font-size: 15px;
+			padding-top: 1.2em;
+		}
+	}
+
+	.personal-plan, .enterprise-plan{
+		margin: 0 auto;
+
+		h1{
+			font-size: 16px;
+			padding-top: 1em;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//full screen
 
 @media (min-width: 1340px){
 
@@ -152,7 +201,7 @@
 		background-color: pink;
 
 		.plan-types{
-			width: 17em;
+			width: 19em;
 			float: left;
 
 			.plan-header{
@@ -162,7 +211,7 @@
 	}
 	
 	.small-bus-plan{
-		margin: 0 4.3em;
+		margin: 0 1.3em;
 
 		h1{
 			font-size: 15px;
@@ -180,9 +229,27 @@
 	}
 
 
+	.more-info{
+		width: 60em;
+		height: 40em;
+		margin: 0 auto;
+		
+	}
 
+	.info-block{
+		width: 45%;
+		height: 17em;
+		padding: 1em 0;
+		float: left;
 
+		&:nth-child(even){
+			float: right;
+		}
+	}
 
+	footer{
+		clear: both;
+	}
 
 }
 
